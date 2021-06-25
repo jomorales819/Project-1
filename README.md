@@ -71,16 +71,13 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
-|          |                     |                      |
-|          |                     |                      |
+| Jump Box | NO           | My Own Personal IP  |
+|    Web-1      |       NO              |      10.0.0.4                |
+|    Web-2      |       NO            |    10.0.0.4                  |
+|    Web-3      |       NO            |       10.0.0.4               |
+|    Elk-Project1-VM      |      YES           |      10.0.0.4                |
 
-Name	Publicly Accessible	Allowed IP Addresses
-jump-box-provisioner	YES	73.55.220.87
-web-1	NO	10.0.0.4
-web-2	NO	10.0.0.4
-web-3	NO	10.0.0.4
-Elk-Project1-VM	YES	10.0.0.4
+
 
 
 ### Elk Configuration
