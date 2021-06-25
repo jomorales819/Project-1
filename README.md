@@ -2,9 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram]
-Project 1: Network Diagram
-https://docs.google.com/document/d/19EoBED3IJ6GyuDnNENRn5k6-HmR5ItYQ5DcMao5LpvY/edit?usp=sharing
+![Project 1: Network Diagram](Diagram/Network-Topology-1.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
