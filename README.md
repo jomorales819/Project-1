@@ -51,16 +51,11 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
 | Jump Box | Gateway  | 10.0.0.4   | Linux            |
-|          |          |            |                  |
-|          |          |            |                  |
-|          |          |            |                  |
+| Web-1 (DVWA)       |    Web Server      |     10.0.0.5       |        Linux          |
+| Web-2 (DVWA)         |    Web Server      |     10.0.0.6       |        Linux          |
+| Web-3 (DVWA)        |    Web Server      |     10.0.0.7       |        Linux          |  
+| ELK-Project1-VM      |    ELK Stack Server     |   10.1.0.4     |        Linux          |        
 
-Name	Function	Private IP	Public IP	Operating System
-jump-box-provisioner	Gateway/Jumpbox	10.0.0.4	20.94.248.38 	  Linux (ubuntu 20.04)
-web-1	Server (DVWA)	10.0.0.5	None	  Linux (ubuntu 20.04)
-web-2	Server (DVWA)	10.0.0.6	None	  Linux (ubuntu 20.04)
-web-3	Server (DVWA)	10.0.0.7	None	  Linux (ubuntu 20.04)
-Elk-Project1-VM	ELK Stack Server (log,metrics, stats compiling and reporting)(running seb/elk docker container)	10.1.0.4	20.97.13.236	  Linux (ubuntu 20.04)
 ### Access Policies
 
 The machines on the internal network are not exposed to the public Internet. 
